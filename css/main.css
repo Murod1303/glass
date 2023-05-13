@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    clip: rect(0 0 0 0)
+}
+.container {
+    width: 1270px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.nav-list {
+    display: flex;
+}
+.nav-item {
+    margin-right: 35px;
+}
+.nav-item:nth-child(6) {
+    margin-right: 0;
+}
+.nav-link {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.book-link {
+    display: block;
+    width: 200px;
+    padding: 16px 20px;
+    background-color: #5b6460 ;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+/* hero started  */
+.hero {
+    width: 1408px;
+    height: 700px;
+    padding-top: 95px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/main/herobg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+.hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 32px;
+}
+.hero-title {
+    margin-bottom: 34px;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 72px;
+    text-align: right;
+    color: #fff;
+}
+.hero-desc-box {
+    width: 333px;
+}
+.hero-desc {
+    display: block;
+    margin-right: 110px;
+    font-family: 'Mulish' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+
+
+/* cabin  started  */
+.cabin {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.for-flex-cabin {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 150px;
+}
+.cabin-content {
+    width: 465px;
+}
+.cabin-title {
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #5b6460;
+}
+.cabin-content-desc {
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000;
+}
+.cabin-link {
+    border-bottom: 1px solid #5b6460;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5b6460;
+}
+.cabin-picfirst {
+    border-radius: 10px;
+}
+.cabin-picture {
+    width: 1408px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 32px;
+    
+}
+.cabin-picw {
+    margin-right: 24px;
+    border-radius: 10px;
+}
+.cabin-picw:nth-child(3) {
+    margin-right: 0;
+    flex-shrink: 1.5;
+}
+/* location started  */
+.lacation-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.map-l {
+    width: 704px;
+    height: 650px;
+}
+.wrapper-w {
+    width: 704px;
+    padding: 150px 0 150px 110px;
+    background-color: #e9ece0;
+}
+.location-content {
+    width: 465px;
+}
+.location-content-title {
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #5b6460;
+}
+.location-content-desc {
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333333;
+}
+.location-content-link {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5b6460;
+    border-bottom: 1px solid #000;
+}
+
+/* location finished */
+
+/* facilites started  */
+.facilites {
+    padding: 150px 0;
+    background-color: #5b6460;
+}
+.facilites-title {
+    margin-bottom: 120px;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+}
+.facilites-desc-box {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.facilites-desc {
+    margin-bottom: 83px;
+    text-align: center;
+}
+.fridge::before {
+    content: "";
+    
+}
+
+
